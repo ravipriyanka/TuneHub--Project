@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+     background-image:url("sp.png");
+     color:black;
+      margin: 0;
+      padding: 0;
+}
+
+.registration-section {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure that padding and border are included in the width */
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
